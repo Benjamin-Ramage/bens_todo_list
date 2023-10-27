@@ -69,16 +69,15 @@ class _TasksScreenState extends State<TasksScreen> {
               decoration: const BoxDecoration(
                 color: Color(0XFF2f4961),
                 borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(20.0),
-                  topRight: Radius.circular(20.0),
+                  topLeft: Radius.circular(30.0),
                 ),
               ),
               child: TasksList(tasks),
             ),
           ),
           Positioned(
-            top: 815.0,
-            left: 335.0,
+            top: 715.0,
+            left: 330.0,
             child: Container(
               margin: const EdgeInsets.only(
                 bottom: 30.0,
